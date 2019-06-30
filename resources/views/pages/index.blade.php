@@ -108,8 +108,8 @@
                 @foreach($latest_Article as $Article)
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="tie-post card ">
-                            <img src="{{  asset('upload_img_medicines/' . $Article['article_image']) }}" class="card-img-top img-thumbnail" alt="..."></>
-                            <div class="card-body">
+                            <img src="{{  asset('upload_img_medicines/' . $Article['article_image']) }}" class="card-img-top img-thumbnail" alt="Article Image" style="max-height: 12rem;"></>
+                            <div class="card-body ">
                                 <h5 class="card-title text-primary">{{ strtoupper($Article['article_title']) }}</h5>
                                 <p class="card-text">{!! ucfirst( str_limit( $Article['article_descreption'],800 ) )  !!}</p>
                                 <a href="{{ route('single_article_info',['id'=>$Article['article_id'],'cat_id'=>$Article['Arti_Category_id'] ]) }}" class="btn text-info">Read more &#187;</a>

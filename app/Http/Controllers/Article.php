@@ -121,7 +121,7 @@ class Article extends Controller
        
         // return $request;
         // must be pharmasist to can add article
-        if (Auth::user()->role != 1) {
+        if (Auth::user()->role == 0) {
 
             return redirect()->back()->with('fail','You Must Be have Pharmacy Before Add Article');
         }
