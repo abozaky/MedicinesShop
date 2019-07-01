@@ -24,6 +24,8 @@
 * allow pharmacy owner add Articles Specialized medical information
 * allow Customer ask owner article and write any comment 
 
+## Diagram - RS DB (MedicineShop)
+![Diagram-MedicineShope](https://user-images.githubusercontent.com/41168441/60409146-95298e00-9bc2-11e9-8539-8441746d16ae.png)
 
 ### Built With
 
